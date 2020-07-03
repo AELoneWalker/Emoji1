@@ -1,0 +1,47 @@
+.face{
+    background: gold;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .eye1, .eye2{
+    background: brown;
+    height: 11px;
+    width: 12px;
+    border-radius: 50%;
+    position: absolute; 
+    top: 30px;
+  }
+  
+  .eye1{
+    left: 20px;
+  }
+  
+  .eye2{
+    left: 70px;
+  }
+
+  .mouth{
+    background: brown;
+    height: 34px;
+    width: 70px;
+    position: absolute;
+    border-radius: 0 0 90px 90px;
+    top: 52px;
+    left: 16px;
+    z-index: 1;
+    overflow: hidden;
+  }
+
+  .tongue{
+      background: red;
+      height: 38px;
+      width: 30px;
+      position: absolute;
+      top: 70px;
+      left: 35px;
+      border-radius: 40%;
+      z-index: 2;
+  }
